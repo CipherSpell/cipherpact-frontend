@@ -1,6 +1,6 @@
 // import axios from "axios";
 
-import { ActionType } from "../../constants/action-constants";
+import { ActionType } from '../../constants/action-constants';
 
 export type Action = {
   type: string;
@@ -12,7 +12,7 @@ export const getAgreement = (uid: any) => {
     //let agreement = await axios.post('');
     dispatch({
       type: ActionType.GET_AGREEMENT_BY_UID,
-      payload: "placeholder agreement",
+      payload: 'placeholder agreement',
     });
   };
 };

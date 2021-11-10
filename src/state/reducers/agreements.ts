@@ -1,5 +1,5 @@
-import { ActionType } from "../../constants/action-constants";
-import { Action } from "../actions/index";
+import { ActionType } from '../../constants/action-constants';
+import { Action } from '../actions/index';
 
 // const initialState = {};
 

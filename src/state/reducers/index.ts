@@ -1,6 +1,6 @@
-import { combineReducers } from "redux";
+import { combineReducers } from 'redux';
 
-import { agreementsReducer } from "./agreements";
+import { agreementsReducer } from './agreements';
 
 export default combineReducers({
   agreementsReducer,
